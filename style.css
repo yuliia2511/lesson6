@@ -39,7 +39,7 @@ font-family: 'Open Sans';
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
-line-height: 25px;
+line-height: 20px;
 color: #828282;
 padding-top: 20px
 }
@@ -163,18 +163,21 @@ figure {
 display: inline-block;
 font-family: 'Gilroy-Bold';
 font-size: 14px;
-line-height: 3em
+line-height: 3em;
 padding-top: 23px;
 padding-bottom: 83px; 
 }
 
 .mainicon {
-padding-bottom: 30px;  
+padding-bottom: 25px;  
 }
 
-.icon {
-
-
+.figure-par {
+font-family: 'Gilroy-Bold';
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #828282;
 }
 
 /* Portfolio */
@@ -204,13 +207,13 @@ top: 2025px;
 /* Social */
 
 .social-button {
-    width: 180px;
-    height: 42px;
-    color: white;
-    background-color: #070707;
-    border-radius: 80px;
-    font-size: 18px;
-    line-height: 1.39; 
+width: 180px;
+height: 42px;
+color: white;
+background-color: #070707;
+border-radius: 80px;
+font-size: 18px;
+line-height: 1.39; 
 }
 
 /* Footer */
@@ -226,9 +229,8 @@ color: #828282;
 }
 
 .footer-icon {
-left: 55.86%;
-right: 20.7%;
-top: 29.49%;
-bottom: 64.65%;   
+ 
+    padding-left: 200px;
+    padding-right: 90px;
 }
 
